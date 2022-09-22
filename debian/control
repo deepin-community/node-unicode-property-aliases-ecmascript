@@ -1,0 +1,29 @@
+Source: node-unicode-property-aliases-ecmascript
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , node-jsesc
+ , node-unicode-canonical-property-names-ecmascript
+ , node-tape <!nocheck>
+ , unicode-data (>= 14.0.0~)
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-unicode-property-aliases-ecmascript
+Vcs-Git: https://salsa.debian.org/js-team/node-unicode-property-aliases-ecmascript.git
+Homepage: https://github.com/mathiasbynens/unicode-property-aliases-ecmascript
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-unicode-property-aliases-ecmascript
+Architecture: all
+Depends: ${misc:Depends}
+ , nodejs
+Multi-Arch: foreign
+Description: Unicode property aliases mapping for property names in Node.js
+ This modules provides unicode 10.0 property alias mappings in JavaScript
+ format for property names that are supported in ECMAScript RegExp property
+ escapes.
+ .
+ Node.js is an event-based server-side JavaScript engine.

@@ -1,0 +1,96 @@
+node-unicode-property-aliases-ecmascript (2.0.0+ds-2) unstable; urgency=medium
+
+  * Team upload
+  * Add debian/gbp.conf
+  * Fix filenamemangle
+  * Use dh-sequence-nodejs auto install
+  * Enable upstream test using tape instead of ava
+  * Require unicode-data ≥ 14
+
+ -- Yadd <yadd@debian.org>  Wed, 17 Nov 2021 14:28:57 +0100
+
+node-unicode-property-aliases-ecmascript (2.0.0+ds-1) unstable; urgency=medium
+
+  * Mark the dep on nodejs as :any.
+  * New upstream release.
+
+ -- Julien Puydt <jpuydt@debian.org>  Fri, 24 Sep 2021 14:46:11 +0200
+
+node-unicode-property-aliases-ecmascript (1.1.0+ds-3) unstable; urgency=medium
+
+  [ Julien Puydt ]
+  * Fix d/watch.
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since stretch:
+    + Build-Depends: Drop versioned constraint on
+      node-unicode-canonical-property-names-ecmascript.
+
+  [ Julien Puydt ]
+  * Bump standards-version to 4.6.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 29 Aug 2021 20:51:31 +0200
+
+node-unicode-property-aliases-ecmascript (1.1.0+ds-2) unstable; urgency=medium
+
+  * Install to /usr/share/nodejs instead of /usr/lib/nodejs.
+  * Declare d/rules doesn't require root.
+  * Bump dh compat to 13.
+  * Declare the import autopkgtest as superficial.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 10 Nov 2020 07:29:47 +0100
+
+node-unicode-property-aliases-ecmascript (1.1.0+ds-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Add missing colon in closes line.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.4.1, no changes needed.
+
+  [ Julien Puydt ]
+  * New upstream release.
+  * Bump std-vers to 4.5.0.
+  * Depend on versioned unicode-data at least 13.0.0 (Closes: #928012).
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 15 Mar 2020 08:43:32 +0100
+
+node-unicode-property-aliases-ecmascript (1.0.5+ds-2) unstable; urgency=medium
+
+  * Drop useless versioned deps.
+  * Bump dh compat to 12 and drop d/compat.
+  * Bump std-ver to 4.4.0.
+  * Uploading this closes: #928012.
+
+ -- Julien Puydt <jpuydt@debian.org>  Wed, 31 Jul 2019 09:40:26 +0200
+
+node-unicode-property-aliases-ecmascript (1.0.5+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh packaging:
+    - Mark the package M-A: foreign following hinter.
+    - Bump std-ver to 4.3.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 15 Apr 2019 14:33:20 +0200
+
+node-unicode-property-aliases-ecmascript (1.0.4+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh packaging:
+    - Use my debian.org mail address.
+    - Update dates in d/copyright.
+    - Use salsa in Vcs-* fields.
+    - Bump dh compat to 11.
+    - Bump std-ver to 4.1.5.
+    - Move to section javascript (from web).
+    - Add deps versioning
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 30 Jul 2018 12:29:10 +0200
+
+node-unicode-property-aliases-ecmascript (1.0.3+ds-1) unstable; urgency=low
+
+  * Initial release (Closes: #872659)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sat, 19 Aug 2017 22:35:08 +0200

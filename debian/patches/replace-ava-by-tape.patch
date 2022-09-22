@@ -1,0 +1,19 @@
+Description: replace ava by tape
+Author: Yadd <yadd@debian.org>
+Forwarded: not-needed
+Last-Update: 2021-11-17
+
+--- a/tests/tests.js
++++ b/tests/tests.js
+@@ -1,4 +1,4 @@
+-const test = require('ava');
++const test = require('tape');
+ const propertyAliases = require('../index.js');
+ 
+ test('unicode-property-aliases-ecmascript', t => {
+@@ -26,4 +26,5 @@
+ 		propertyAliases.get('EBase'),
+ 		'Emoji_Modifier_Base'
+ 	);
++	t.end();
+ });
