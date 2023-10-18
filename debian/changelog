@@ -1,3 +1,13 @@
+node-unicode-property-aliases-ecmascript (2.1.0+ds-1) unstable; urgency=medium
+
+  * Team upload
+  * Drop dependency to nodejs
+  * Update standards version to 4.6.1, no changes needed.
+  * New upstream version 2.1.0+ds
+  * Require unicode-data ≥ 15
+
+ -- Yadd <yadd@debian.org>  Sat, 17 Sep 2022 16:19:51 +0200
+
 node-unicode-property-aliases-ecmascript (2.0.0+ds-2) unstable; urgency=medium
 
   * Team upload
