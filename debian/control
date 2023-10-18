@@ -8,8 +8,8 @@ Build-Depends: debhelper-compat (= 13)
  , node-jsesc
  , node-unicode-canonical-property-names-ecmascript
  , node-tape <!nocheck>
- , unicode-data (>= 14.0.0~)
-Standards-Version: 4.6.0
+ , unicode-data (>= 15.0.0~)
+Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/js-team/node-unicode-property-aliases-ecmascript
 Vcs-Git: https://salsa.debian.org/js-team/node-unicode-property-aliases-ecmascript.git
 Homepage: https://github.com/mathiasbynens/unicode-property-aliases-ecmascript
@@ -19,7 +19,6 @@ Rules-Requires-Root: no
 Package: node-unicode-property-aliases-ecmascript
 Architecture: all
 Depends: ${misc:Depends}
- , nodejs
 Multi-Arch: foreign
 Description: Unicode property aliases mapping for property names in Node.js
  This modules provides unicode 10.0 property alias mappings in JavaScript
